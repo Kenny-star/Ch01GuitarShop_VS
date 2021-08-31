@@ -8,7 +8,7 @@ namespace GuitarShop.Controllers
     {
         public IActionResult Detail(string id)
         {
-            //Get every productId from the Database to send as a Response view.
+            //Get one productId from the Database to send as a Response view.
             Product product = DB.GetProduct(id);
             return View(product);
         }
