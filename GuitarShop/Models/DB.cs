@@ -78,7 +78,7 @@ namespace GuitarShop.Models
             List<Product> products = DB.GetProducts();
             foreach (Product p in products)
             {
-                //Return every product & if a character has a space, replace it with a dash (-).
+                //Search for the product name, if found return, else null.
 
                 if (p.Slug == slug)
                 {

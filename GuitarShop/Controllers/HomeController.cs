@@ -6,13 +6,13 @@ namespace GuitarShop.Controllers
     {
         public IActionResult Index()
         {
-            //Navigate View Model 
+            //Navigate View Model to Home/Index.cshtml
             return View();
         }
 
         public IActionResult About()
         {
-            //Navigate View Model 
+            //Navigate View Model to Home/About.cshtml
             return View();
         }
     }
